@@ -38,4 +38,15 @@ def gcd(x, y):
        x, y = y, x % y
 
    return x
+# change my code again
+# Program make a simple calculator that can add, subtract, multiply and divide using functions
+# This function adds two numbers 
+def add(x, y):
+   return x + y
+# This function subtracts two numbers 
+def subtract(x, y):
+   return x - y
+# This function multiplies two numbers
+def multiply(x, y):
+   return x * y
 
