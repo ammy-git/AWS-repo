@@ -26,3 +26,16 @@ def lcm(x, y):
        greater += 1
 
    return lcm
+#i m again editing python file
+# Python program to find the L.C.M. of two input number
+
+# define gcd function
+def gcd(x, y):
+   """This function implements the Euclidian algorithm
+   to find G.C.D. of two numbers"""
+
+   while(y):
+       x, y = y, x % y
+
+   return x
+
